@@ -1,9 +1,11 @@
+fork to allow support for my custom css/js files
+
 ### Express Swagger Generator
 
 #### Installation
 
 ```
-npm i express-swagger-generator --save-dev
+npm i express-swagger-generator-styled --save-dev
 ```
 
 #### Usage
@@ -11,7 +13,7 @@ npm i express-swagger-generator --save-dev
 ```
 const express = require('express');
 const app = express();
-const expressSwagger = require('express-swagger-generator')(app);
+const expressSwagger = require('express-swagger-generator-styled')(app);
 
 let options = {
     swaggerDefinition: {
@@ -112,4 +114,4 @@ For model definitions:
 
 #### More
 
-This module is based on [express-swaggerize-ui](https://github.com/pgroot/express-swaggerize-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
+This module is based on [express-swaggerize-ui-styled](https://github.com/pokemonjpups/express-swaggerize-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
